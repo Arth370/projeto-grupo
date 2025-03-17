@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+main{
+    color: white;
+}
+header{
+    background-image: url(/img/yunli.jpg);
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.texto{
+    background-color: transparent;
+    color: white;
+    font-size: 4em;
+}
+.texto2{
+    background-color: transparent;
+    color: white;
+    font-size: 1.8em;
+}
+.img{
+    width: 5em;
+    cursor: pointer;
+}
+.musica{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border: 1px solid;
+    width: 20em;
+    font-size: 1.5em;
+}
+.musica:hover{
+width: 21em;
+height: 6em;
+font-size: 1.6em;
+}
+.musica:hover img{
+width: 6em;
+}
+#corpo{
+    display: flex;
+    gap: 3em;
+}
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+button{
+    color: white;
+}
