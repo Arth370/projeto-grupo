@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-size: 2em;
+}
+.cor{
+ color: green;
+}
+.linha{
+    height: 0.2em;
+    background-color: green;
+}
+#texto{
+    display: flex;
+    align-items: center;
+}
+#login{
+    display: flex;
+    border: 1px solid;
+    width: 7em;
+}
+#imgUser{
+    width: 3em;
+    height: 3em;
+}
+#inf{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#pesquisa{
+    display:flex;
+    align-items: center;
+}
+.UserPhoto{
+    width: 13em;
+    border-radius: 20em;
+}
+.UserPhoto:hover{
+    width: 14em;
+    height: 14em;
+    transition: linear;
+}
+.textoUser{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+.userInf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15em;
+}
+#fileira1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50em;
+}
+a{
+    text-decoration: none;
+}
