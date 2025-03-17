@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-size: 2em;
+}
+.titulo{
+    display: flex;
+    align-self: center;
+}
+.linha{
+    height: 0.2em;
+    background-color: green;
+}
+.foto{
+    height: 5em;
+    border-radius: 100%;
+}
+.descri{
+    display: flex;
+    align-self: center;
+}
