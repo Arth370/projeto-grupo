@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+#diva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+}
+
+.video{
+    height: 30em;
+    border: 5px solid green;
+    background-color: green;
+}

@@ -23,3 +23,57 @@ header{
     display: flex;
     align-self: center;
 }
+.img{
+    height: 10em;
+    border: 1px solid;
+}
+.img:hover{
+    height: 10.5em;
+}
+.secao_1{
+    display: flex;
+    justify-content: space-around;
+}
+.secao_2{
+    display: flex;
+    justify-content: space-around;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4em;
+    height: 40em;
+}
+.quarto{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    display: flex;
+    align-self: center;
+}
+.fanta{
+    display: flex;
+    flex-direction: column;
+}
+.text2{
+    display: flex;
+    align-self: center;
+}
+.depre{
+    display: flex;
+    flex-direction: column;
+}
+.text3{
+    display: flex;
+    align-self: center;
+}
+.ate{
+    display: flex;
+    flex-direction: column;
+}
+.text4{
+    display: flex;
+    justify-content: center;
+}
