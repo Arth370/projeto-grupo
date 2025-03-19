@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    background-color: black; /* Fundo preto */
+    margin: 0;
+    font-size: 30px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 250px; /* Ajuste o tamanho conforme necessário */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; /* Torna a imagem circular */
+    border: 5px solid white; /* Opcional: borda branca para destaque */
+}
+p{
+    color: white;
+}
+
+.linha{
+    background-color: green;
+    height: 0.2em;
+}
+

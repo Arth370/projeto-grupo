@@ -1,5 +1,7 @@
 body{
     background-color: black;
+<<<<<<< HEAD
+=======
 }
 header{
     display: flex;
@@ -65,4 +67,5 @@ header{
 }
 a{
     text-decoration: none;
+>>>>>>> 1299e7171495683b37a2894011244bd9acc63a8a
 }
